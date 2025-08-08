@@ -16,7 +16,7 @@ spec:
           global:
             storageClass: hostpath
           architecture: replicaset
-          replicaCount: 2
+          replicaCount: 3
           replicaSetName: rs0
           useStatefulSet: true
           auth:
