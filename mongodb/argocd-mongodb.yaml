@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: mongodb
-    repoURL: https://github.com/maheshgowdamg/postgres-gitops1.git
+    repoURL: https://github.com/maheshgowdamg/argocd.git
     targetRevision: master
     helm:
       values: |
