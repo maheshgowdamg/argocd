@@ -10,7 +10,6 @@ spec:
   source:
     repoURL: https://github.com/maheshgowdamg/argocd.git
     targetRevision: master
-    path: mongodb
     helm:
       values: |
         global:

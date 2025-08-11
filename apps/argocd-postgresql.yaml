@@ -13,7 +13,6 @@ spec:
   source:
     repoURL: https://github.com/maheshgowdamg/argocd.git
     targetRevision: master
-    path: postgresql
     helm:
       values: |
         architecture: replication
