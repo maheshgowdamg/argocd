@@ -11,8 +11,9 @@ spec:
     namespace: dev
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/maheshgowdamg/argocd.git
-    targetRevision: master
+    repoURL: https://charts.bitnami.com/bitnami
+    targetRevision: 15.5.23    # <-- Use a valid chart version from Bitnami
+    chart: postgresql
     helm:
       values: |
         architecture: replication
@@ -72,4 +73,3 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
-
